@@ -114,4 +114,5 @@ footer {
   border: 10px solid white;
   padding: 1px;
   margin-right:8%;
+  transition:all 2s ease;
 }

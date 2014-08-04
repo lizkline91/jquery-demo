@@ -49,8 +49,9 @@ $('.gallery img').hover(function(){
     $(this).css({width:"500px", height:"500px"});
 },function(){
     $(this).css({width:"100px", height:"100px"});
+    
 });
-$('.gallery a').on('click', function(event) {
+$('.gallery a').hover(function(event) {
   event.preventDefault();
   $(this).closest('li').siblings().toggleClass('invisible');
   $(this).toggleClass('currentImage');
